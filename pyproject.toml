@@ -1,0 +1,6 @@
+# Vercel uchun entrypoint.
+# Flask ilovasi `sayt.py` faylida, lekin bu nom Vercel'ning standart
+# (app.py / index.py / main.py / server.py) nomlariga kirmaydi.
+# Shu sababli qaysi fayl va qaysi o'zgaruvchi ishlatilishini aniq ko'rsatamiz.
+[tool.vercel]
+entrypoint = "sayt:app"
